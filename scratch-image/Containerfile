@@ -1,0 +1,4 @@
+FROM scratch
+LABEL MAINTAINER Adharsh Rajendran <adharsh.rajendran@gmail.com>
+ADD output.sh /
+CMD ['output.sh']
